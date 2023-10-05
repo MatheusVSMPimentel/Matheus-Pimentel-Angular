@@ -11,6 +11,7 @@ import { APP_BASE_HREF } from '@angular/common';
 import { ContactMeComponent } from './institutonial/contact-me/contact-me.component';
 import { AboutMeComponent } from './institutonial/about-me/about-me.component';
 import { OurTeamComponent } from './institutonial/our-team/our-team.component';
+import { ChallengesOpportunitiesComponent } from './institutonial/about-me/challenges-opportunities/challenges-opportunities.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OurTeamComponent } from './institutonial/our-team/our-team.component';
     HomeComponent,
     ContactMeComponent,
     AboutMeComponent,
-    OurTeamComponent
+    OurTeamComponent,
+    ChallengesOpportunitiesComponent
   ],
   imports: [
     BrowserModule,
