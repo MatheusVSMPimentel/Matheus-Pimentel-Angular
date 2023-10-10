@@ -32,7 +32,7 @@ async function AnimateRunner (boxWorkaholicImgDiv: Element, boxWorkaholic: Eleme
       { transform: 'translateX(10%)', opacity: 0, height: 0 , visibility: 'none'}
     ], {
       // sync options
-      duration: 2000,
+      duration: 4000,
       easing:"ease-out",
       fill: 'forwards'
     });
@@ -42,7 +42,7 @@ async function AnimateRunner (boxWorkaholicImgDiv: Element, boxWorkaholic: Eleme
       { opacity: 1},
     ], {
       // sync options
-      duration: 2165,    
+      duration: 4155,    
       easing:"ease-in"
     });
 }
