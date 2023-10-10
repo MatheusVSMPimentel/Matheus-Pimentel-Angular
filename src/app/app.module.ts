@@ -14,6 +14,7 @@ import { OurTeamComponent } from './institutonial/our-team/our-team.component';
 import { ChallengesOpportunitiesComponent } from './institutonial/about-me/challenges-opportunities/challenges-opportunities.component';
 import { AboutMeModalComponent } from './modals/about-me-modal/about-me-modal.component';
 import { ProfessionalJourneyModalComponent } from './modals/professional-journey-modal/professional-journey-modal.component';
+import { AcademicFormationModalComponent } from './modals/academic-formation-modal/academic-formation-modal.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProfessionalJourneyModalComponent } from './modals/professional-journey
     OurTeamComponent,
     ChallengesOpportunitiesComponent,
     AboutMeModalComponent,
-    ProfessionalJourneyModalComponent
+    ProfessionalJourneyModalComponent,
+    AcademicFormationModalComponent
   ],
   imports: [
     BrowserModule,
