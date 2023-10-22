@@ -17,20 +17,4 @@ export class ProductsService {
     return this.client.get<Product[]>(this.UrlService.concat("products"));
   }
 
-   getImagePicSum(picsumUrl:string): boolean{
-    let subject = new Subject<boolean>();
-     this.client.get<string>(picsumUrl).subscribe(
-      imageExist => {
-          if(imageExist === null){
-            return false;
-          }
-          /* if(imageExist.includes("Image does not exist")){
-            return false;
-
-          } */
-          return true;
-      }
-    );
-    return false;
-  } 
 }
