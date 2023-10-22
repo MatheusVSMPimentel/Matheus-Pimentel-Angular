@@ -40,6 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-src/assets/Imgs/Curriculo.jpg
-src/assets/Imgs/AboutMe1.jpg
 .vscode/
+src/assets/Imgs/Home/1.jpg
+src/assets/Imgs/Institutonial/Our-Team/8.jpg
+src/assets/Imgs/Home/Home21.jpg
+src/assets/Imgs/Navigation/Navbar/1.jpg

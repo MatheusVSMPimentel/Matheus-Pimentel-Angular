@@ -1,0 +1,19 @@
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 m-auto">
+    <div *ngFor="let product of products" class="col">
+        <div class="card m-auto " style="min-height: 405px; max-height: 405px;" >
+            <img src="{{generatePicsumUrl()}}" class="card-img-top img-fluid" style="min-height: 230px;" alt="..."/>
+            <div class="card-body my-auto mb-2 ">
+              <div class="part-2 p-auto">
+                <h3 class="product-title">{{product.name}}</h3>
+                <h4 *ngIf="product.onSale" class="product-old-price">{{product.price | currency: 'BRL':'symbol':'1.2-2':'pt'}}</h4>
+                <h4 class="product-price">{{(product.onSale ? product.discountedPrice : product.price ) | currency: 'BRL':'symbol':'1.2-2':'pt' }}</h4>
+                </div>
+                
+                <div class="container container-fluid my-auto" style="position: inherit;">
+                    <button class="btn btn-success d-flex mt-2 m-auto" style="font-size: 0.98rem; position: inherit;">Add ao carrinho <i class="fa fa-cart-plus"></i> 
+                    </button>
+                </div>
+            </div>
+          </div>
+    </div>
+  </div>

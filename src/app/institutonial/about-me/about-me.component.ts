@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
-
-
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
@@ -14,7 +11,11 @@ export class AboutMeComponent implements OnInit{
   
   
   ngOnInit(): void {
-    const rocketUp =  document.querySelector('#rocketUp') ??new Element();
+    const rocketUp =  document.querySelector('#rocketUp') ?? new Element();
+    this.RocketAnimation(rocketUp);
+  }
+
+  private RocketAnimation(rocketUp: Element){
     
     rocketUp.animate([
       { transform: 'rotate(-18deg) translate(2px, -1px)'},
@@ -37,5 +38,6 @@ export class AboutMeComponent implements OnInit{
       duration: 500,
       iterations: Infinity,
     });
-  }
+}
+
 }
