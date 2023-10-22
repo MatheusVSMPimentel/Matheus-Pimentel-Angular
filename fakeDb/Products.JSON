@@ -1,0 +1,245 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Black Men's T-Shirt",
+        "price": 29.99,
+        "onSale": true,
+        "discountedPrice": 19.99,
+        "image": "black-tshirt.jpg"
+      },
+      {
+        "id": "2",
+        "name": "Women's Jeans",
+        "price": 89.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "jeans.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Unisex Sports Shoes",
+        "price": 59.99,
+        "onSale": true,
+        "discountedPrice": 49.99,
+        "image": "sports-shoes.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Analog Wristwatch",
+        "price": 39.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "wristwatch.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Genuine Leather Bag",
+        "price": 119.99,
+        "onSale": true,
+        "discountedPrice": 99.99,
+        "image": "leather-bag.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Bluetooth Earphones",
+        "price": 49.99,
+        "onSale": true,
+        "discountedPrice": 39.99,
+        "image": "earphones.jpg"
+      },
+      {
+        "id": "7",
+        "name": "Fashion Sunglasses",
+        "price": 24.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "sunglasses.jpg"
+      },
+      {
+        "id": "8",
+        "name": "50ml Imported Perfume",
+        "price": 89.99,
+        "onSale": true,
+        "discountedPrice": 79.99,
+        "image": "perfume.jpg"
+      },
+      {
+        "id": "9",
+        "name": "Youth School Backpack",
+        "price": 34.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "backpack.jpg"
+      },
+      {
+        "id": "10",
+        "name": "10-Inch Android Tablet",
+        "price": 199.99,
+        "onSale": true,
+        "discountedPrice": 169.99,
+        "image": "tablet.jpg"
+      },
+      {
+        "id": "11",
+        "name": "128GB Android Smartphone",
+        "price": 749.99,
+        "onSale": true,
+        "discountedPrice": 699.99,
+        "image": "smartphone.jpg"
+      },
+      {
+        "id": "12",
+        "name": "Men's Formal Shoes",
+        "price": 79.99,
+        "onSale": true,
+        "discountedPrice": 69.99,
+        "image": "formal-shoes.jpg"
+      },
+      {
+        "id": "13",
+        "name": "Folding Bicycle",
+        "price": 199.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "bicycle.jpg"
+      },
+      {
+        "id": "14",
+        "name": "Gaming Mechanical Keyboard",
+        "price": 59.99,
+        "onSale": true,
+        "discountedPrice": 49.99,
+        "image": "keyboard.jpg"
+      },
+      {
+        "id": "15",
+        "name": "4-Burner Stainless Steel Stove",
+        "price": 329.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "stove.jpg"
+      },
+      {
+        "id": "16",
+        "name": "DSLR Camera",
+        "price": 499.99,
+        "onSale": true,
+        "discountedPrice": 449.99,
+        "image": "camera.jpg"
+      },
+      {
+        "id": "17",
+        "name": "24-Inch Monitor",
+        "price": 149.99,
+        "onSale": true,
+        "discountedPrice": 129.99,
+        "image": "monitor.jpg"
+      },
+      {
+        "id": "18",
+        "name": "Ceiling Fan with Remote Control",
+        "price": 99.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "ceiling-fan.jpg"
+      },
+      {
+        "id": "19",
+        "name": "10kg Washing Machine",
+        "price": 349.99,
+        "onSale": true,
+        "discountedPrice": 299.99,
+        "image": "washing-machine.jpg"
+      },
+      {
+        "id": "20",
+        "name": "1000W Microwave Oven",
+        "price": 74.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "microwave-oven.jpg"
+      },
+      {
+        "id": "21",
+        "name": "7-Piece Cookware Set",
+        "price": 49.99,
+        "onSale": true,
+        "discountedPrice": 39.99,
+        "image": "cookware-set.jpg"
+      },
+      {
+        "id": "22",
+        "name": "Multi-Function Blender",
+        "price": 29.99,
+        "onSale": true,
+        "discountedPrice": 24.99,
+        "image": "blender.jpg"
+      },
+      {
+        "id": "23",
+        "name": "Wireless Gaming Mouse",
+        "price": 19.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "gaming-mouse.jpg"
+      },
+      {
+        "id": "24",
+        "name": "Large Travel Suitcase",
+        "price": 59.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "large-suitcase.jpg"
+      },
+      {
+        "id": "25",
+        "name": "Charcoal Barbecue Grill",
+        "price": 69.99,
+        "onSale": true,
+        "discountedPrice": 59.99,
+        "image": "barbecue-grill.jpg"
+      },
+      {
+        "id": "26",
+        "name": "Windproof Large Umbrella",
+        "price": 19.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "umbrella.jpg"
+      },
+      {
+        "id": "27",
+        "name": "1.5-Liter Electric Coffee Maker",
+        "price": 29.99,
+        "onSale": true,
+        "discountedPrice": 24.99,
+        "image": "coffee-maker.jpg"
+      },
+      {
+        "id": "28",
+        "name": "4-1/2 Inch Electric Angle Grinder",
+        "price": 49.99,
+        "onSale": false,
+        "discountedPrice": 0,
+        "image": "angle-grinder.jpg"
+      },
+      {
+        "id": "29",
+        "name": "Rotating Hair Straightener Brush",
+        "price": 39.99,
+        "onSale": true,
+        "discountedPrice": 34.99,
+        "image": "hair-brush.jpg"
+      },
+      {
+        "id": "30",
+        "name": "Folding Beach Chair",
+        "price": 29.99,
+        "onSale": true,
+        "discountedPrice": 24.99,
+        "image": "beach-chair.jpg"
+      }
+    ]
+  }
+  

@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './navigation/footer/footer.component';
@@ -15,7 +17,16 @@ import { ChallengesOpportunitiesComponent } from './institutonial/about-me/chall
 import { AboutMeModalComponent } from './modals/about-me-modal/about-me-modal.component';
 import { ProfessionalJourneyModalComponent } from './modals/professional-journey-modal/professional-journey-modal.component';
 import { AcademicFormationModalComponent } from './modals/academic-formation-modal/academic-formation-modal.component';
+import { CoursesCertificationsGalleryComponent } from './institutonial/courses-certifications-gallery/courses-certifications-gallery.component';
+import { CoursesCertificationModalComponent } from './modals/institutonial/courses-certification-modal/courses-certification-modal.component';
+import { provideAnimations} from "@angular/platform-browser/animations"
+import { FormsModule } from '@angular/forms';
+import { ListProductsComponent } from './products/list-products/list-products.component';
+import { ProductsService } from './products/Service/products.service';
+import { HttpClient, HttpClientModule, HttpHandler } from '@angular/common/http';
 
+
+registerLocaleData(localePt)
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +39,18 @@ import { AcademicFormationModalComponent } from './modals/academic-formation-mod
     ChallengesOpportunitiesComponent,
     AboutMeModalComponent,
     ProfessionalJourneyModalComponent,
-    AcademicFormationModalComponent
+    AcademicFormationModalComponent,
+    CoursesCertificationsGalleryComponent,
+    CoursesCertificationModalComponent,
+    ListProductsComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
+    FormsModule,
     [RouterModule.forRoot(RoutesConfig, {useHash: false})]
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
+  providers: [ProductsService,{provide: APP_BASE_HREF, useValue: '/'}, provideAnimations(), HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

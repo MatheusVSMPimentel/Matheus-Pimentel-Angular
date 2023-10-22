@@ -14,6 +14,7 @@ function IsInViewport(el: Element | null) :boolean {
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 };
+
 async function HideTheRunner(boxWorkaholicImgDiv: Element, boxWorkaholic: Element)
 {
   boxWorkaholic.setAttribute("style","visibility: hidden") 
